@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — João da Silva</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">João Silva</a>
+      <ul class="nav-links">
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="skills.html">Habilidades</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container content">
+    <h2>Contato</h2>
+    <p>Quer conversar sobre um projeto ou vaga? Me mande uma mensagem:</p>
+
+    <form class="contact-form" action="mailto:seu.email@exemplo.com" method="post" enctype="text/plain">
+      <label>Nome<input type="text" name="Nome" required></label>
+      <label>Email<input type="email" name="Email" required></label>
+      <label>Mensagem<textarea name="Mensagem" rows="6" required></textarea></label>
+      <div class="form-actions">
+        <button type="submit" class="btn">Enviar</button>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/seu-usuario" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </form>
+
+    <ul class="contact-list">
+      <li><strong>E-mail:</strong> seu.email@exemplo.com</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-usuario" target="_blank">linkedin.com/in/seu-usuario</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/seu-usuario" target="_blank">github.com/seu-usuario</a></li>
+    </ul>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© João da Silva</p>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
